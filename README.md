@@ -6,9 +6,8 @@
 ⇨ Existem outras entidades além dessas três?<br>
 Não, somente Alunos, Turma e Cursos
 
-⇨ Quais são os principais campos e tipos?
+⇨ Quais são os principais campos e tipos?<br>
 ID, Nome, varchar, int
 
-
-⇨ Como essas entidades estão relacionadas?
+⇨ Como essas entidades estão relacionadas?<br>
 Estão se relacionando pelo ID(chave primária)
