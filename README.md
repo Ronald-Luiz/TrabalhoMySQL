@@ -6,4 +6,4 @@
 
 ⇨ Quais são os principais campos e tipos?
 
-⇨ Como essas entidades estão re
+⇨ Como essas entidades estão relacionadas?
