@@ -7,6 +7,8 @@
 Não, somente Alunos, Turma e Cursos
 
 ⇨ Quais são os principais campos e tipos?
+ID, Nome, varchar, int
 
 
 ⇨ Como essas entidades estão relacionadas?
+Estão se relacionando pelo ID(chave primária)
