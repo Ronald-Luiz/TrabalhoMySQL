@@ -4,7 +4,9 @@
 
 
 ⇨ Existem outras entidades além dessas três?
+Não, somente Alunos, Turma e Cursos
 
 ⇨ Quais são os principais campos e tipos?
+
 
 ⇨ Como essas entidades estão relacionadas?
