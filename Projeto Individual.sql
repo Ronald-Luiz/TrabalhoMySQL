@@ -21,6 +21,18 @@ CREATE TABLE `Cursos` (
   `id_turma` int
 );
 
+CREATE TABLE `Professores` (
+  `ID` int PRIMARY KEY,
+  `Nome` varchar(255),
+  `Turno` varchar(255),
+  `id_turma` int,
+  `id_curso` int
+);
+
 ALTER TABLE `Turmas` ADD FOREIGN KEY (`id_aluno`) REFERENCES `Alunos` (`ID`);
 
 ALTER TABLE `Cursos` ADD FOREIGN KEY (`id_turma`) REFERENCES `Turmas` (`ID`);
+
+ALTER TABLE `Turmas` ADD FOREIGN KEY (`ID`) REFERENCES `Professores` (`id_turma`);
+
+ALTER TABLE `Cursos` ADD FOREIGN KEY (`ID`) REFERENCES `Professores` (`id_curso`);
